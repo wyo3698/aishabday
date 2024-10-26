@@ -5225,6 +5225,37 @@ input, select, textarea {
 			font-size: 1.1em;
 			width: 48em;
 			margin: 0 auto;
+			margin-bottom: 3em;
+		}
+
+		@media screen and (max-width: 425px) {
+
+			/* Basic */
+	
+				#intro p.style3 {
+					margin-bottom: 7em;
+				}
+	
+		}
+
+		@media screen and (max-width: 235px) {
+
+			/* Basic */
+	
+				#intro p.style3 {
+					margin-bottom: 9em;
+				}
+	
+		}
+
+		@media screen and (max-width: 227px) {
+
+			/* Basic */
+	
+				#intro p.style3 {
+					margin-bottom: 12em;
+				}
+	
 		}
 
 /* Features */
