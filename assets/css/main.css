@@ -2243,6 +2243,7 @@ input, select, textarea {
 			font-size: 1.1em;
 			width: 48em;
 			margin: 0 auto;
+			margin-bottom: 20px;
 		}
 
 /* Features */
@@ -2659,7 +2660,7 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				display: block;
+				display: none;
 				height: 100%;
 				left: 0;
 				overflow-y: auto;
@@ -2672,7 +2673,7 @@ input, select, textarea {
 			}
 
 				#navPanel .link {
-					display: block;
+					display: none;
 					color: rgba(255, 255, 255, 0.5);
 					text-transform: uppercase;
 					text-decoration: none;
@@ -5658,7 +5659,7 @@ input, select, textarea {
 			}
 
 				#navPanel .link {
-					display: block;
+					display: none;
 					color: rgba(255, 255, 255, 0.5);
 					text-transform: uppercase;
 					text-decoration: none;
